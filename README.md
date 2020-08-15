@@ -1,1 +1,1 @@
-# lecturasIIC3633-2020
+# jiruiz2-IIC3633-2020
