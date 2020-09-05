@@ -1,0 +1,10 @@
+# Crítica a Document Clustering Based On Non-negative Matrix Factorization
+En ciertas ocasiones, al tener un conjunto grande de documentos, también conocido como corpus de documentos, es necesario poder separarlos según criterios establecidos. Para resolver esta problemática, los autores plantean una solución basada en dividir a los documentos en distintos clusters a traves de una Factorización de matrices no negativas (NMF por sus siglas en inglés). En base a los resultados que obtuvieron, se demostró que el mecanismo propuesto es superior al estado del arte en cuanto a la calidad de la clusterización, sino que también en la *accuracy* lograda por este.
+
+Considero que en su introducción explican muy bien la temática a tratar y todo lo necesario para poder entender la problemática en su mayoría, sin embargo, creo que faltó tomar un espacio para explicar términos propios del problema como por ejemplo *document corpus*, *term-document matrix*, entre otros, ya que los utilizan en gran parte del paper y al no estar ligado al problema es común no entenderlos, lo cual dificulta en parte la lectura.
+
+Creo que es un argumento muy bueno el que utilizan en la sección 3.2 cuando explican que la función objetivo que plantean para su sistema tiene una convergencia asegurada, sobretodo si ya ha sido demostrado por otro autor como es el mencionado Lee.
+
+Otro aspecto que considero sumamente destacable del paper es el esfuerzo que pusieron en explicar cada paso de su algoritmo, tomándose el tiempo de explicar la presencia de cada variable y cada paso y fórmula matemática que se utilizase. Apoya mucho a la lectura la presencia de un resumen como es el caso del final de la sección 3.2 donde definen su algoritmo en 4 pasos.
+
+El paper es sumamente completo, está bien explicado en su gran mayoría y el método planteado por lo autores demostró ser superior al estado del arte en diferentes aspectos. Creo que sería interesante poder utilizar el enfoque planteado por los autores en tareas parecidas a la planteada como puede ser la categorización automática de películas o música.
