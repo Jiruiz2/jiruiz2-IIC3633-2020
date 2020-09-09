@@ -1,0 +1,12 @@
+# Crítica: Combining Predictions for Accurate Recommender Systems
+
+Actualmente existen varios algoritmos de filtrado colaborativo entre los que se encuentran SVD, iKNN, uKNN, *Restricted Boltzmann Machine* (RBM), entre otros. Para mejorar el desempeño individual de cada uno de estos, los autores plantean una combinación en la utilización de ellos. Para comprobar su hipótesis probaron las uniones de estos algoritmos en el dataset de prueba del Netflix Prize llegando a la conlcusión de que la combinación entre una regresión polinomial, una red neuronal y un *bagged gradient boosted decision tree* entregaban resultados que disminuían en gran medida el RMSE generado por el set de test.
+
+Me parece interesante el trade-off que ocurre al utilizar algoritmos combinados, ya que, como mencionan los autores, no todos son utilizables en sistemas de recomendación a gran escala debido a que una gran cantidad de datos significa un gran uso de memoria y un largo tiempo en realizar la recomendación. Lo anterior significa que, aunque estos algortimos tengan un menor RMSE que otros, no son una opción viable en muchas ocasiones por lo que no superan completamente a los demás.
+
+Me gusta la manera en que explican las fórmulas, ya que van  más allá de solo hablar de las variables sino que toman en cuenta toda la fórmula y lo que esta significa. A modo de ejemplo en la sección 3, cuando hablan de support, explican cuando utilizar RBM's y cuando utilizar SVD's de una forma didáctica y fácil de entender.
+
+Siento que faltó explicar algunos parámetros que utilizan, ya que eligen valores para esto de una manera aparentemente arbitraria, por ejemplo, en la sección 3, al explicar como utilizaron una red neuronal señalaron que se hizo una conversión del rango [-1, 1] a [1, 5] utilizando un $\alpha$ y $\beta$ pero no explican de donde se obtuvieron esos valores.
+
+Por último me gustaría señalar que las tablas que muestran en muchos casos son muy dificiles de analizar, ya que se muestran muchas celdas con datos y son números con muchos decimales, lo cual dificulta el entendimiento de esta en gran parte. Considero que hubiese sido preferible probar con un *scatter plot* con el fin de que sean más sencillos de entender por el lector. Lo anterior es particularmente importante debido a que las diferencias son mínimas entre los valores de RMSE, ya que son del órden del cuarto decimal y es complicado de ver diferencias de manera rápida solo analizando el número como tal.
+

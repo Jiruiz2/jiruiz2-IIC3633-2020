@@ -1,0 +1,10 @@
+# Crítica: Content-Based Recommendation Systems
+Entre la amplia diversidad de tipos de recomendaciones, se destaca la basada en contenido. Los algoritmos de este tipo buscan recomendar items basándose en la descripción que tenga este y en el perfil del interés del usuario al que se entregará la recomendación. Los sistemas que implementan este tipo de algoritmo se pueden utilizar para recomendar páginas web, artículos de periódico, restaurants, etc. En el *paper*, los autores explican los diferentes tipos de datos que se pueden utilizar con este algoritmo, como lo son los datos estructurados y no estructurados y a su vez explican distinto algoritmos que se pueden utilizar para realizar recomendaciones basadas en contenido dependiendo de la situación.
+
+Considero que es muy bueno que hayan agregado figuras donde se puede apreciar lo que están planteando en páginas web reales, ya que facilita mucho el entendimiento y la imágenes elegidas grafican claramente lo que estaban explicando los autores.
+
+Me causa extrañeza lo planteado en la sección 10.6, donde señalan que el algoritmo de Rocchio no tiene una base teórica que lo sustente y, por ende, no se asegura un nivel de desempeño ni la convergencia de este, pero que a su vez los experimentos han demostrado buenos resultados en su uso. Creo que si algo se pudo demostrar realizando experimentos entonces se debiese poder probar teóricamente que está en lo cierto, por lo que debiese dedicar más esfuerzos para conseguir el fundamento con el fin de que el algoritmo sea más robusto.
+
+Creo que los autores entregaron información muy relevante y variada al revisar distintos modelos, ya que entregaron distintos algoritmos para un mismo tipo de estos y señalaban de entre todas las opciones cual era el mejor, por qué y cuándo debía utilizarse.
+
+Por último, me gustaría señalar que es sumamente importante que los sistemas recomendadores puedan entender el contexto en que se está realizando su recomendación, ya que, como plantean los autores, puede haber situaciones donde la recomendación es correcta pero el contexto no es el correcto para recibirla, lo cual significará un error por parte del sistema.
