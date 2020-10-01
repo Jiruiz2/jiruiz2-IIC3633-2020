@@ -1,0 +1,11 @@
+# Crítica: See What You Want to See: Visual User-Driven Approach for Hybrid Recommendation
+
+La investigación de sistemas recomendadores se ha enfocado principalmente en mejorar el *accuracy* de las recomendaciones. Sin embargo, varios estudios han demostrado que el *accuracy* no se correlaciona con una mejor experiencia para el usuario. Por lo anterior, los autores plantean *SetFusion* una interfaz visual que es controlada por los usuarios para sistemas recomendadores híbridos. Este proyecto permite que el usuario fusione y controle de manera manual la importancia de distintas estrategias de recomendación, con el fin de personalizarlo para si mismo. Los resultados obtenidos mediante análisis de comportamiento y evaluación subjetiva indican que *SetFusion* tiene un efecto positivo en la experiencia del usuario.
+
+Me causa extrañeza que no se haya estudiado mucho la opción de que el usuario tenga control sobre sus recomendaciones, ya que al fin y al cabo el será el que las usará. Considero que es un enfoque con mucho potencial, ya que, comparándolo con el área de desarrollo de software, donde se hacen aplicaciones para los clientes, se obtuvieron mucho mejores resultados cuando se incluyeron a los clientes en el proceso de desarrollo.
+
+Considero que las figuras que se muestran ayudan mucho a entender la interfaz planteada, ya siempre es complicado imaginar una aplicación sin tener una referencia clara y, en este caso, las imágenes son muy explicativas de por si, más allá de si la interfaz es buena o no.
+
+Es sumamente útil para entender bien los procesos que se realizan en los distintos algoritmos utilizados que los presenten divididos por pasos sin utilizar tanto lenguaje técnico con el fin de facilitar la lectura. Esto es realizado por los autores al explicar los algoritmos de recomendación utilizados, lo que es importante para facilitar la lectura del documento y hacer que este sea más fácil de entender.
+
+Por último, me parece importante señalar que, aunque los autores no lo explican directamente en el *paper*, el enfoque que plantean permite disminuir la posibilidad de sesgo o *bias* en las recomendaciones realizadas, ya que como cada usuario puede personalizar la aplicación a su gusto, se permite obtener un modelo más robusto a lo que puede ocurrir si el usuario no tuviese control alguno.
